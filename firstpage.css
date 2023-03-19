@@ -8,7 +8,7 @@
     display: flex;
     margin: 0;
     background-image:
-        linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 200%, #151824 100%), url(image-back.jpg);
+    linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(image-back.jpg);
     background-size: 1794px 1078px;
     background-repeat: no-repeat;
     margin-top: -20px;
@@ -332,19 +332,19 @@ h3 {
     height: 670px;
     margin-top: 170px;
     gap: 77px;
-    margin-left: 192px;
+    margin-left: auto;
     margin-right: auto;
 }
 
 .focus {
     display: flex;
     flex-direction: row;
+    padding-left: 2px;
 }
 
 .tottori {
     width: 500px;
     height: 300px;
-    margin-left: 70px;
 }
 
 .prefecture {
@@ -352,13 +352,13 @@ h3 {
     flex-direction: column;
     justify-content: left;
     gap: 40px;
-    padding-left: 196px;
+    padding-left: 238px;
 }
 
 .pref {
     color: #000000;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 40px;
 }
 
@@ -385,8 +385,8 @@ h3 {
 .featured {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    padding-left: 100px;
+    padding-left: 8px;
+    gap: 48px;
 }
 
 .arashiyama {
@@ -415,8 +415,6 @@ h3 {
     width: 1260px;
     height: 670px;
     margin-top: 136px;
-    margin-left: 40px;
-    border: 2px solid rgb(255, 255, 255);
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -426,14 +424,12 @@ h3 {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: 47px
 }
 
 .conteiner-4 {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: 47px;
     margin-top: 72px;
 }
 
@@ -475,9 +471,8 @@ h3 {
 .get-txt {
     color: #000000;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 42px;
-    padding-left: 46px;
 }
 
 .over-txt-1 {
@@ -523,197 +518,39 @@ h3 {
 
 }
 
-.likes-1 {
+.likes {
     position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 591px;
-    top: 3681px;
-}
-
-.likes-2 {
-    position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 1007px;
-    top: 3681px;
-}
-
-.likes-3 {
-    position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 1423px;
-    top: 3681px;
-}
-
-.likes-4 {
-    position: absolute;
-    height: 17px;
+    height: 18px;
     width: 18px;
-    left: 591px;
-    top: 4328px;
+    margin-top: 17px;
 }
 
-.likes-5 {
+
+
+.comments {
     position: absolute;
-    height: 17px;
+    height: 18px;
     width: 18px;
-    left: 1007px;
-    top: 4328px;
+    margin-top: 17px;
 }
 
-.likes-6 {
-    position: absolute;
-    height: 17px;
-    width: 18px;
-    left: 1423px;
-    top: 4328px;
-}
 
-.comments-1 {
-    position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 663px;
-    top: 3681px;
-}
 
-.comments-2 {
-    position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 1079px;
-    top: 3681px;
-}
-
-.comments-3 {
-    position: absolute;
-    height: 19px;
-    width: 19px;
-    left: 1495px;
-    top: 3681px;
-}
-
-.comments-4 {
-    position: absolute;
-    height: 17px;
-    width: 18px;
-    left: 663px;
-    top: 4328px;
-}
-
-.comments-5 {
-    position: absolute;
-    height: 17px;
-    width: 18px;
-    left: 1079px;
-    top: 4328px;
-}
-
-.comments-6 {
-    position: absolute;
-    height: 17px;
-    width: 18px;
-    left: 1495px;
-    top: 4328px;
-}
-
-.amount-1 {
+.amount {
     position: absolute;
     font-size: 16px;
-    left: 556px;
-    top: 3664px;
     color: #ffffff;
 }
 
-.amount-2 {
+
+
+.amount-comm {
     position: absolute;
     font-size: 16px;
-    left: 974px;
-    top: 3664px;
     color: #ffffff;
 }
 
-.amount-3 {
-    position: absolute;
-    font-size: 16px;
-    left: 1389px;
-    top: 3664px;
-    color: #ffffff;
-}
 
-.amount-4 {
-    position: absolute;
-    font-size: 16px;
-    left: 556px;
-    top: 4311px;
-    color: #ffffff;
-}
-
-.amount-5 {
-    position: absolute;
-    font-size: 16px;
-    left: 972px;
-    top: 4311px;
-    color: #ffffff;
-}
-
-.amount-6 {
-    position: absolute;
-    font-size: 16px;
-    left: 1388px;
-    top: 4311px;
-    color: #ffffff;
-}
-
-.amount-comm-1 {
-    position: absolute;
-    font-size: 16px;
-    left: 635px;
-    top: 3664px;
-    color: #ffffff;
-}
-
-.amount-comm-2 {
-    position: absolute;
-    font-size: 16px;
-    left: 1051px;
-    top: 3664px;
-    color: #ffffff;
-}
-
-.amount-comm-3 {
-    position: absolute;
-    font-size: 16px;
-    left: 1467px;
-    top: 3664px;
-    color: #ffffff;
-}
-
-.amount-comm-4 {
-    position: absolute;
-    font-size: 16px;
-    left: 635px;
-    top: 4311px;
-    color: #ffffff;
-}
-
-.amount-comm-5 {
-    position: absolute;
-    font-size: 16px;
-    left: 1051px;
-    top: 4311px;
-    color: #ffffff;
-}
-
-.amount-comm-6 {
-    position: absolute;
-    font-size: 16px;
-    left: 1467px;
-    top: 4311px;
-    color: #ffffff;
-}
 
 .see-more {
     border: 1px solid #1B7DFF;
@@ -734,7 +571,6 @@ h3 {
     flex-direction: row;
     gap: 56px;
     margin-top: 51px;
-    padding-left: 50px;
     line-height: 24px;
 }
 
@@ -780,7 +616,8 @@ h3 {
     height: 64px;
 }
 
-footer {display: flex;
+footer {
+    display: flex;
     width: 1798px;
     height: 400px;
     background-color: #0E1D28;
@@ -827,4 +664,59 @@ footer {display: flex;
     font-size: 18px;
     line-height: 24px;
     gap: 8px;
+}
+
+.likeANDcomm-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -1003px;
+    top: 322px;
+    gap: 36px;
+}
+.likeANDcomm-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -721px;
+    top: 322px;
+    gap: 36px;
+}
+.likeANDcomm-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -446px;
+    top: 322px;
+    gap: 36px;
+}
+.likeANDcomm-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -1003px;
+    top: 323px;
+    gap: 36px;
+}
+.likeANDcomm-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -720px;
+    top: 323px;
+    gap: 36px;
+}
+.likeANDcomm-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: -442px;
+    top: 323px;
+    gap: 36px;
 }
