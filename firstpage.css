@@ -108,14 +108,15 @@ h1 {
     background-color: #1B7DFF;
     color: #ffffff;
     margin-left: 45px;
-    width: 118px;
-    height: 44px;
-    font-size: 17px;
-    margin-top: 43px;
+    width: 171px;
+    height: 58px;
+    font-size: 21px;
+    margin-top: 31px;
 }
 
 .buttonsearch {
     margin-left: -100px
+    
 }
 
 .benefitsofOdigo {
@@ -128,7 +129,7 @@ h1 {
     font-weight: 700;
     font-size: 30px;
     line-height: 42px;
-    margin-left: 140px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -136,7 +137,7 @@ h1 {
     width: 1262px;
     height: 670px;
     margin-top: 180px;
-    margin-left: 40px;
+    margin-left: -8px;
     border: 2px solid white;
     background-color: #ffffff;
     box-shadow: 0px 0px 14px 0px #363636
@@ -221,8 +222,8 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-top: 120px;
+    padding-left: 100px;
+    padding-top: 90px;
     gap: 40px;
 }
 
@@ -719,4 +720,14 @@ footer {
     left: -442px;
     top: 323px;
     gap: 36px;
+}
+input{width: 240px;
+    font-size:18px;
+background-color: transparent;
+border-color: transparent;
+outline: 0;
+color: #ffffff;
+
+}
+::placeholder{color: #ffffff;
 }

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body{ background-image:
+    linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(image-back.jpg);
+    background-size: 1821px 1078px;
+    background-repeat: no-repeat;}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    width: 1080px;
+    margin-top: 20px;
+    background-color: transparent;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.logo-1 {
+    width: 80px;
+    height: 130px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
