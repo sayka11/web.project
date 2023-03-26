@@ -1,38 +1,215 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-body{ background-image:
-    linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(image-back.jpg);
-    background-size: 1821px 1078px;
-    background-repeat: no-repeat;}
 
-.head {
+.img {
+    width: 870px;
+    height: 1017px;
+}
+
+.conteiner-page {
     display: flex;
     flex-direction: row;
-    width: 1080px;
-    margin-top: 20px;
-    background-color: transparent;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 75px;
 }
 
-.articles {
+.conteiner-all {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.google-button {
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+}
+
+.apple-button {
+    margin-top: 8px;
+}
+
+.first-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.second-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.third-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.four-button{display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;}
+
+
+.conteiner-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 120px;
+    gap: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle {
+    width: 48px;
+    height: 48px;
+    background: #C4C4C4;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+.conteiner-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sign-up-google {
+    border: 1px solid #000000;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: 393px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 33px;
+}
+
+.sign-up-google:hover {
+    background-color: #f5f0f0;
+}
+
+.sign-up-apple {
+    border: 1px solid #000000;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    width: 393px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 33px;
+}
+
+.sign-up-apple:hover {
+    background-color: #f5f0f0;
+}
+
+.lines {
     display: flex;
     flex-direction: row;
-    gap: 80px;
-    margin-top: 60px;
+    align-items: center;
+    gap: 23px;
 }
 
-.logo-1 {
-    width: 80px;
-    height: 130px;
+.or {
+    color: #6e6c6c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
 }
 
-.link {
-    text-decoration: none;
+.sign-up-black {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    width: 393px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
 }
+
+.sign-up-black:hover {
+    background-color: #1d1c1c;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+
+.conteiner-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+h3{ font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #333333;}
+
+    .log-in {
+        border: 1px solid #000000;
+        padding: 15px;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        width: 393px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .log-in:hover {
+        background-color:  #f5f0f0;
+    }
+
+    .footer-1{display: flex;
+    flex-direction: row;
+background-color: white;
+justify-content: center;
+align-items: center;
+height: 56px;
+width: 1440px;
+gap: 52px;
+margin: auto;
+
+}
+
+.link-1{color: #666666;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-decoration: none;
+}
+.link-2{text-decoration: none;}

@@ -8,7 +8,7 @@
     display: flex;
     margin: 0;
     background-image:
-    linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(image-back.jpg);
+        linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%), url(image-back.jpg);
     background-size: 1794px 1078px;
     background-repeat: no-repeat;
     margin-top: -20px;
@@ -116,7 +116,6 @@ h1 {
 
 .buttonsearch {
     margin-left: -100px
-    
 }
 
 .benefitsofOdigo {
@@ -676,6 +675,7 @@ footer {
     top: 322px;
     gap: 36px;
 }
+
 .likeANDcomm-2 {
     display: flex;
     flex-direction: row;
@@ -685,6 +685,7 @@ footer {
     top: 322px;
     gap: 36px;
 }
+
 .likeANDcomm-3 {
     display: flex;
     flex-direction: row;
@@ -694,6 +695,7 @@ footer {
     top: 322px;
     gap: 36px;
 }
+
 .likeANDcomm-4 {
     display: flex;
     flex-direction: row;
@@ -703,6 +705,7 @@ footer {
     top: 323px;
     gap: 36px;
 }
+
 .likeANDcomm-5 {
     display: flex;
     flex-direction: row;
@@ -712,6 +715,7 @@ footer {
     top: 323px;
     gap: 36px;
 }
+
 .likeANDcomm-6 {
     display: flex;
     flex-direction: row;
@@ -721,13 +725,59 @@ footer {
     top: 323px;
     gap: 36px;
 }
-input{width: 240px;
-    font-size:18px;
-background-color: transparent;
-border-color: transparent;
-outline: 0;
-color: #ffffff;
+
+input {
+    width: 240px;
+    font-size: 18px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    color: #ffffff;
 
 }
-::placeholder{color: #ffffff;
+
+::placeholder {
+    color: #ffffff;
+}
+
+.nag {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 255px;
+}
+
+.nig {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 266px;
+}
+
+.osak {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 265px;
+}
+
+.sait {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 255px;
+}
+
+.uen {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 285px;
+}
+
+.shib {
+    color: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 265px;
 }
