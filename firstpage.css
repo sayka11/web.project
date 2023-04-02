@@ -712,6 +712,16 @@ h3 {
     top: 51px;
 }
 
+.cont-4-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    margin-top: 51px;
+    line-height: 24px;
+    position: relative;
+    top: 51px;
+}
+
 .cont-3-1 {
     display: flex;
     flex-direction: column;
@@ -1030,16 +1040,33 @@ input {
     }
 
     .inspire {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 38px;
-        margin-left: 22px;
+        margin-left: 18px;
     }
+
+    .underline {
+        width: 200px;
+        margin-right: 0;
+    }
+
+    .view-arrow {
+        padding-bottom: 16px;
+    }
+
+    .view-all {
+        font-size: 12px;
+    }
+
 
     .conteiner-1 {
         flex-direction: column;
     }
+
     .conteiner-2 {
         flex-direction: column;
+        margin-left: 11px;
+
     }
 
     .fuji {
@@ -1054,15 +1081,197 @@ input {
         margin-left: 10px;
     }
 
-    .over-txt-1 {top: 239px;
-        left: 5px;}
-    .kyoto{width: 350px;
+    .over-txt-1 {
+        top: 239px;
+        left: 5px;
+    }
+
+    .kyoto {
+        width: 350px;
         height: 300px;
-        margin-left: 10px;}
-    .over-kyoto{width: 350px;
+        margin-left: 10px;
+    }
+
+    .over-kyoto {
+        width: 350px;
         height: 300px;
         margin-left: -610px;
-        margin-top: 315px;}
-        .over-txt-2 {top: 550px;
-            left: 5px;}
+        margin-top: 315px;
+    }
+
+    .over-txt-2 {
+        top: 550px;
+        left: 5px;
+    }
+
+    .tottori {
+        width: 320px;
+        height: 200px;
+    }
+
+    .tokyo {
+        width: 280px;
+        height: 200px;
+        margin-left: 35px;
+    }
+
+    .niigata-1 {
+        width: 280px;
+        height: 200px;
+        margin-left: 35px;
+    }
+
+    .sapporo {
+        width: 302px;
+        height: 200px;
+        margin-left: 35px;
+    }
+
+    .focus {
+        flex-direction: column;
+        padding-top: 550px;
+        margin-left: 7px;
+    }
+
+    .prefecture {
+        padding-left: 0;
+        gap: 1px;
+    }
+
+    .prefecture-txt {
+        font-size: 13px;
+        line-height: 18px;
+        width: 337px;
+    }
+
+    .arash-txt {
+        font-size: 13px;
+        line-height: 18px;
+        width: 337px;
+    }
+
+    .over-tokyo {
+        width: 282px;
+        height: 200px;
+        position: absolute;
+        left: 35px;
+    }
+
+    .over-niigata {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        left: 35px;
+        top: 210px;
+    }
+
+    .over-sapporo {
+        width: 280px;
+        height: 200px;
+        position: absolute;
+        left: 35px;
+        top: 421px;
+    }
+
+    .over-txt-3 {
+        font-size: 32px;
+        top: 153px;
+        left: 37px;
+    }
+
+    .over-txt-4 {
+        font-size: 32px;
+        top: 360px;
+        left: 37px;
+    }
+
+    .over-txt-5 {
+        font-size: 32px;
+        top: 570px;
+        left: 37px;
+    }
+
+    .get {
+        gap: 20px;
+    }
+
+    .fivebox {
+        margin-top: 800px;
+    }
+
+    .featured {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .red {
+        width: 320px;
+        height: 200px;
+        position: relative;
+        bottom: 330px;
+        right: 35px;
+    }
+
+    .arashiyama {
+        position: relative;
+        top: 170px;
+        left: 31px;
+        gap: 1px;
+    }
+
+    .get-txt {
+        font-size: 18px;
+        line-height: 29px;
+        margin-top: 90px;
+    }
+
+    .conteiner-3 {
+        flex-direction: column;
+        gap: 200px;
+        margin-left: -8px;
+    }
+
+    .conteiner-4 {
+        flex-direction: column;
+        gap: 200px;
+        margin-left: -8px;
+        position: relative;
+        top: -351px;
+    }
+
+    .cont-3-txt {
+        flex-direction: column;
+        position: absolute;
+        top: 4609px;
+        gap: 435px;
+    }
+
+    .cont-4-txt {
+        flex-direction: column;
+        gap: 441px;
+        position: relative;
+        top: -2136px;
+    }
+.back-video{margin-top: -2052px;
+    width: 653px;}
+    .play-button{height: 95px;
+        width: 95px;
+        left: 418px;
+       top: 250px;}
+       .logo-2{margin-left: 82px;
+        width: 130px;
+        height: 40px;}
+       footer{width: 653px;}
+       .footer-txt{flex-direction: column;
+        padding-left: 120px;
+        gap: 33px;
+        margin-top: -50px;}
+        .f-txt-1{font-size: 12px;
+            line-height: 6px;}
+            .f-txt-2{font-size: 12px;
+                line-height: 6px;}
+                .f-txt-3{font-size: 12px;
+                    line-height: 6px;}
+                    .amount{color: black;}
+                    .amount-comm{color: #000000;}
 }
