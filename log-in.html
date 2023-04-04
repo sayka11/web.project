@@ -15,7 +15,6 @@
 <body>
     <div class="conteiner-page">
         <div class="circle"></div>
-
         <div class="conteiner-1">
             <div class="log">Log in</div>
             <div class="sign-up">Don’t have an ccount? <a href="#" class="sign-up">Sign up</a> </div>
@@ -46,11 +45,12 @@
             </div>
 
         </div>
-
+<form id="form">
         <div class="conteiner-3">
             <div class="first-input">
                 <div class="txt">Your email</div>
-                <input type="email" name="enter" id="email">
+                <input type="text" name="enter" id="email" />
+                <p id="errorEmail"></p>
             </div>
 
             <div class="second-input">
@@ -64,17 +64,18 @@
                         <div class="txt">Hide</div>
                     </div>
                 </div>
-
-                <input type="password" name="enter" id="password">
+                <input type="password" name="enter" id="password" />
+                <p id="errorPass"></p>
                 <a href="#" class="forget">Forget your password</a>
             </div>
-            <button class="log-in">
+            <button type="submit" class="log-in" id="log-in">
                 <div class="third-button">
                 <div>Log in</div>
                 </div>
             </button>
-            
+           
         </div>
-</body>
-
+       </form>
+    </body>
+    <script src="./main.js"></script>
 </html>
