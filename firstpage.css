@@ -563,6 +563,43 @@ h3 {
     margin-right: auto;
 }
 
+.place-card-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-card-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-card-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-card-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-card-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.place-card-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
 .conteiner-3 {
     display: flex;
     flex-direction: row;
@@ -662,31 +699,6 @@ h3 {
     left: 685px;
 }
 
-.likes {
-    position: absolute;
-    height: 18px;
-    width: 18px;
-    margin-top: 17px;
-}
-
-.comments {
-    position: absolute;
-    height: 18px;
-    width: 18px;
-    margin-top: 17px;
-}
-
-.amount {
-    position: absolute;
-    font-size: 16px;
-    color: #ffffff;
-}
-
-.amount-comm {
-    position: absolute;
-    font-size: 16px;
-    color: #ffffff;
-}
 
 .see-more {
     border: 1px solid #1b7dff;
@@ -817,65 +829,7 @@ footer {
     gap: 8px;
 }
 
-.likeANDcomm-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -1003px;
-    top: 322px;
-    gap: 36px;
-}
 
-.likeANDcomm-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -721px;
-    top: 322px;
-    gap: 36px;
-}
-
-.likeANDcomm-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -446px;
-    top: 322px;
-    gap: 36px;
-}
-
-.likeANDcomm-4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -1003px;
-    top: 323px;
-    gap: 36px;
-}
-
-.likeANDcomm-5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -720px;
-    top: 323px;
-    gap: 36px;
-}
-
-.likeANDcomm-6 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    left: -442px;
-    top: 323px;
-    gap: 36px;
-}
 
 input {
     width: 240px;
@@ -1252,26 +1206,48 @@ input {
         position: relative;
         top: -2136px;
     }
-.back-video{margin-top: -2052px;
-    width: 653px;}
-    .play-button{height: 95px;
+
+    .back-video {
+        margin-top: -2052px;
+        width: 653px;
+    }
+
+    .play-button {
+        height: 95px;
         width: 95px;
         left: 418px;
-       top: 250px;}
-       .logo-2{margin-left: 82px;
+        top: 250px;
+    }
+
+    .logo-2 {
+        margin-left: 82px;
         width: 130px;
-        height: 40px;}
-       footer{width: 653px;}
-       .footer-txt{flex-direction: column;
+        height: 40px;
+    }
+
+    footer {
+        width: 653px;
+    }
+
+    .footer-txt {
+        flex-direction: column;
         padding-left: 120px;
         gap: 33px;
-        margin-top: -50px;}
-        .f-txt-1{font-size: 12px;
-            line-height: 6px;}
-            .f-txt-2{font-size: 12px;
-                line-height: 6px;}
-                .f-txt-3{font-size: 12px;
-                    line-height: 6px;}
-                    .amount{color: black;}
-                    .amount-comm{color: #000000;}
+        margin-top: -50px;
+    }
+
+    .f-txt-1 {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .f-txt-2 {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .f-txt-3 {
+        font-size: 12px;
+        line-height: 6px;
+    }
 }
